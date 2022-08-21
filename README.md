@@ -25,11 +25,9 @@
   * id: 待辦事項的id 
 
 ### 更新待辦事項
-**PUT todo**
+**PUT /todo**
 * Headers
   * Content-Type: application/json
-* Path params
-  * id: 待辦事項的id 
 * Body params
   * id: 待辦事項的id 
   * item: 待辦事項內容 
